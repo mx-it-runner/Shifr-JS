@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form name="encform" onsubmit="return false;">
+        <H1>Программа для шифрования данных</H1>
+        <p>
+            <textarea name="box1" rows="5" cols="100">Текст для проверки возможности шифрования</textarea>
+        </p>
+        <p>
+            <input class ="buttons1" type="button" value="Зашифровать" onClick="this.form.box2.value=Encrypt(this.form.box1.value);">
+        </p>
+        <p>
+            <textarea name="box2" rows="5" cols="100"></textarea>
+        </p>
+        <p>
+            <input class ="buttons2" type="button" value="Расшифровать" onClick="this.form.box3.value=unEncrypt(this.form.box2.value);">
+        </p>
+        <p>
+            <textarea name="box3" rows="5" cols="100"></textarea>
+        </p>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+form {
+    text-align: center;
+}
+
+textarea {
+    max-width: 100%;
+    background-color: rgb(212, 233, 226);
+    text-align: center;
+    font-size: 25px;
+}
+
+.buttons1 {
+    background-color: rgb(223, 95, 90);
+    
+}
+
+.buttons2 {
+    background-color: rgb(107, 223, 96);
+}
